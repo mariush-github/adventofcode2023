@@ -1,5 +1,4 @@
 <?php
-$start_time = microtime(true);
 $lines = explode(chr(0x0A), trim(file_get_contents(__DIR__. '/inputs/02.txt'),"\r\n"));
 
 $maximums = array ( 'red'=>12, 'green'=>13,'blue'=>14);
